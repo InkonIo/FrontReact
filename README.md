@@ -1,7 +1,7 @@
-https://github.com/InkonIo/VsCodeFarmReact 
+https://github.com/InkonIo/FrontReact
 (реакт)
 
-https://github.com/InkonIo/VsCodeFarmJava
+https://github.com/InkonIo/BackendJava
 (джава)
 
 скачивать вместе, раздельно для сохранения изменений и просмотра историй, так же удобство
