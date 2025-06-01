@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.earth-container {
+  background-image: url('https://www.historic-uk.com/wp-content/uploads/2020/06/wardian-box-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   font-family: 'Comfortaa', sans-serif;
+}
+
+.modal-box {
+  background-color: #fff4b438;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 100, 0, 0.3);
+  width: 500px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.info-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 20px;
+  justify-items: center;
+}
+
+.info-buttons button {
+    width: 230px;
+    height: 40px;
+  border-radius: 10px; /* мягкие края */
+  background-color: #acb24fb3;
+  border: 1px solid rgba(76, 175, 80, 0.2); /* еле заметный border */
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.info-buttons button:hover {
+  background-color: #857349b0;
+  border-color: rgba(76, 175, 80, 0.4);
+}
+
+.info-output {
+    margin-top: 25px;
+    padding: 1px;
+    background-color: #d3c34eb5;
+    border-radius: 20px;
+    border: 1px solid rgba(76, 175, 80, 0.2);
+    font-size: 12px;
+}

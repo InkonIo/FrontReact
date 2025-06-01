@@ -1,0 +1,73 @@
+/* components/ChatPage.css */
+
+.ai-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  border-radius: 12px;
+  height: 450px;
+  max-width: 500px;
+  background-color: var(--bg);
+  color: var(--text);
+  border: 1.5px solid var(--border);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+/* Светлая тема */
+.ai-chat.light {
+  --bg: #fff;
+  --text: #222;
+  --border: #ccc;
+  --input-bg: #f5f5f5;
+  --button-bg: #28a745;
+  --button-hover: #218838;
+}
+
+/* Тёмная тема */
+.ai-chat.dark {
+  --bg: #1a1a1a;
+  --text: #eee;
+  --border: #444;
+  --input-bg: #333;
+  --button-bg: #28a745;
+  --button-hover: #1e7e34;
+}
+
+/* Центрированное приветствие */
+.welcome-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 80%;
+  color: var(--text);
+  opacity: 1;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+  user-select: none;
+}
+
+.welcome-message.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.chat-main {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Дополнительные стили для темной темы в чате */
+.chat-main.dark {
+  background-color: #222;
+  color: #ccc;
+}
+
+.chat-main.light {
+  background-color: #f3f4f6;
+  color: #000;
+}
