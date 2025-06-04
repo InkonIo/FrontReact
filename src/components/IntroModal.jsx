@@ -64,8 +64,7 @@ const IntroModal = ({ onContinue, onExit, exited }) => {
               
               <div className="hero-description">
                 <p className="description-text">
-                  AgroFarm — это инновационная платформа для фермеров. Мы предоставляем
-                  ИИ-рекомендации по качеству почвы, мониторинг, мировую карту и многое другое.
+                  класс
                 </p>
               </div>
             </div>
